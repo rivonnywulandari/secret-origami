@@ -75,7 +75,7 @@ const getData = () => {
     },
     {
       id: 9,
-      title: "Ara🦋",
+      title: "Ara☔️",
       body: "Di sini sering hujan. Aku hanya berharap, ketika Ara menatap langit cerah, dia tak lupa bagaimana aku pernah ada di hari-hari kelabunya.",
       createdAt: "2024-12-18T10:24:34.572Z",
       archived: true,
