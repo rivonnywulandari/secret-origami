@@ -57,7 +57,7 @@ const getData = () => {
     },
     {
       id: 7,
-      title: "Siska 🌻",
+      title: "Maura 🌻",
       body: "Kamu masih inget buku diary kita pas SMP? Sampai sekarang tiap baca, aku selalu ketawa sama curhatan ga penting kita.",
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
