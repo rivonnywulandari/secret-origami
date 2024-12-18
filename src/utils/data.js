@@ -73,6 +73,24 @@ const getData = () => {
       flip: true,
       imageUrl: './images/boat.png',
     },
+    {
+      id: 9,
+      title: "Ara 🦋",
+      body: "Ini musim semi yang kesekian. Aku hanya berharap, ketika Ara menatap langit cerah, dia tak lupa bagaimana aku pernah ada di hari-hari kelabunya.",
+      createdAt: "2024-12-18T10:27:34.572Z",
+      archived: true,
+      flip: true,
+      imageUrl: './images/yellowbird.png',
+    },
+    {
+      id: 10,
+      title: "Fardian 🏀",
+      body: "Tokyo pasti menyenangkan, ya? Sejak pergi tiga tahun lalu, kamu ga pernah lagi berkabar. Aku dan Fardio masih di sini, menunggumu Ian pulang.",
+      createdAt: "2024-18-18T10:28:34.572Z",
+      archived: true,
+      flip: true,
+      imageUrl: './images/pinkrabbit.png',
+    },
   ];
 }
 
