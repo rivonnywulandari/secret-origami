@@ -103,6 +103,7 @@ class NoteInput extends React.Component {
           placeholder="Write your message here..."
           value={this.state.body}
           onChange={this.onBodyChangeEventHandler}
+          maxLength="500"
           required
         />
 
