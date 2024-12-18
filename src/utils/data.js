@@ -76,7 +76,7 @@ const getData = () => {
     {
       id: 9,
       title: "Ara 🦋",
-      body: "Ini musim semi yang kesekian. Aku hanya berharap, ketika Ara menatap langit cerah, dia tak lupa bagaimana aku pernah ada di hari-hari kelabunya.",
+      body: "Di sini sering hujan. Aku hanya berharap, ketika Ara menatap langit cerah, dia tak lupa bagaimana aku pernah ada di hari-hari kelabunya.",
       createdAt: "2024-12-18T10:27:34.572Z",
       archived: true,
       flip: true,
