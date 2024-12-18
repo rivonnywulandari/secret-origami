@@ -317,7 +317,7 @@ textarea {
   /* margin-bottom: 15px; */
   position: relative;
   margin-bottom: 10px;
-  border: 1px solid black;
+  border: 0px solid black;
   border-radius: 4px;
 
 }
@@ -494,6 +494,9 @@ input[type='radio']:checked+.shape-img {
   width: 100%;
   padding: 8px;
   font-family: 'Inter', sans-serif;
+  color: black;
+  background-color: whitesmoke;
+  height: 35px;
 }
 
 @media only screen and (min-width: 500px) {
