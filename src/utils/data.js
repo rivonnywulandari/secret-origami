@@ -17,7 +17,7 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: './images/love.png',
+      imageUrl: './images/heart.png',
     },
     {
       id: 3,

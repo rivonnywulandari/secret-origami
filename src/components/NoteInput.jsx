@@ -78,7 +78,7 @@ class NoteInput extends React.Component {
       { name: 'cicada', value: './images/cicada.svg', img: './images/cicada.svg' },
       { name: 'crab', value: './images/crab.png', img: './images/crab.png' },
       { name: 'frog', value: './images/frog.png', img: './images/frog.png' },
-      { name: 'love', value: './images/love.png', img: './images/love.png' },
+      { name: 'heart', value: './images/heart.png', img: './images/heart.png' },
       { name: 'pink rabbit', value: './images/pinkrabbit.png', img: './images/pinkrabbit.png' },
       { name: 'plane', value: './images/plane.png', img: './images/plane.png' },
       { name: 'rabbit', value: './images/rabbit.png', img: './images/rabbit.png' },
