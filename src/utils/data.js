@@ -76,7 +76,7 @@ const getData = () => {
     {
       id: 9,
       title: "Ara☔️",
-      body: "Di sini sering hujan. Aku hanya berharap, ketika Ara menatap langit cerah, dia tak lupa bagaimana aku pernah ada di hari-hari kelabunya.",
+      body: "Di sini lagi sering-seringnya hujan. Aku cuma berharap, pas Ara lihat langit cerah, dia ga lupa gimana aku pernah ada di hari-hari kelabunya.",
       createdAt: "2024-12-15T10:24:34.572Z",
       archived: true,
       flip: true,
@@ -85,7 +85,7 @@ const getData = () => {
     {
       id: 10,
       title: "Fardian🏀",
-      body: "Tokyo pasti menyenangkan, ya? Sejak pergi tiga tahun lalu, kamu ga pernah lagi berkabar. Aku dan Fardio masih di sini, menunggu Ian pulang.",
+      body: "Tokyo pasti seru banget, ya? Sejak pergi tiga tahun lalu, kamu ga pernah lagi berkabar. Aku sama Fardio masih di sini, nungguin kamu balik.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: true,
       flip: true,
