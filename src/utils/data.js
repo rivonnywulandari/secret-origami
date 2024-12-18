@@ -84,7 +84,7 @@ const getData = () => {
     },
     {
       id: 10,
-      title: "Fardian 🏀",
+      title: "Fardian🏀",
       body: "Tokyo pasti menyenangkan, ya? Sejak pergi tiga tahun lalu, kamu ga pernah lagi berkabar. Aku dan Fardio masih di sini, menunggumu Ian pulang.",
       createdAt: "2024-18-18T10:28:34.572Z",
       archived: true,
