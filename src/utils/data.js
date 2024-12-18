@@ -7,7 +7,7 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: '/images/bird.png',
+      imageUrl: './images/bird.png',
 
     },
     {
@@ -17,7 +17,7 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: '/images/love.png',     
+      imageUrl: './images/love.png',
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: '/images/crab.png',
+      imageUrl: './images/crab.png',
     },
     {
       id: 4,
@@ -35,7 +35,7 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: '/images/frog.png',
+      imageUrl: './images/frog.png',
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: '/images/rabbit.png',
+      imageUrl: './images/rabbit.png',
     },
     {
       id: 6,
@@ -53,7 +53,7 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: '/images/plane.png',
+      imageUrl: './images/plane.png',
     },
     {
       id: 7,
@@ -62,8 +62,8 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: '/images/cicada.svg',
-    },    
+      imageUrl: './images/cicada.svg',
+    },
     {
       id: 8,
       title: "Bayu ⛵",
@@ -71,8 +71,8 @@ const getData = () => {
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: '/images/boat.png',
-    },    
+      imageUrl: './images/boat.png',
+    },
   ];
 }
 
