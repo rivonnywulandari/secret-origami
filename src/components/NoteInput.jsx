@@ -22,10 +22,10 @@ class NoteInput extends React.Component {
   onTitleChangeEventHandler(event) {
     const input = event.target.value;
     const maxLength = 50;
-    this.setState({ 
+    this.setState({
       title: event.target.value,
       charRemaining: maxLength - input.length > 0 ? maxLength - input.length : 0,
-     });
+    });
   }
 
   onBodyChangeEventHandler(event) {
@@ -37,11 +37,11 @@ class NoteInput extends React.Component {
 
   onShapeChangeHandler(event) {
     const selectedValue = event.target.value;
-    this.setState({ 
+    this.setState({
       imageUrl: selectedValue,
-      dropdownVisible: false, 
+      dropdownVisible: false,
     });
-    
+
   }
 
   toggleDropdown() {
@@ -55,7 +55,7 @@ class NoteInput extends React.Component {
     this.props.addNote(this.state);
 
     alert('Letter submitted successfully!');
-    
+
     // console.log('Title:', this.state.title);
     // console.log('Body:', this.state.body);
     // console.log('Shapes:', this.state.imageUrl);
@@ -68,21 +68,21 @@ class NoteInput extends React.Component {
       charRemaining: 50,
       dropdownVisible: false,
     });
-}
+  }
 
 
   render() {
     const shapes = [
-      { name:'bird', value: '/images/bird.png', img: '/images/bird.png' },
-      { name:'boat', value: '/images/boat.png', img: '/images/boat.png' },
-      { name:'cicada', value: '/images/cicada.svg', img: '/images/cicada.svg' },
-      { name:'crab', value: '/images/crab.png', img: '/images/crab.png' },
-      { name:'frog', value: '/images/frog.png', img: '/images/frog.png' },
-      { name:'love', value: '/images/love.png', img: '/images/love.png' },
-      { name:'pink rabbit', value: '/images/pinkrabbit.png', img: '/images/pinkrabbit.png' },
-      { name:'plane', value: '/images/plane.png', img: '/images/plane.png' },
-      { name:'rabbit', value: '/images/rabbit.png', img: '/images/rabbit.png' },
-      { name:'yellow bird', value: '/images/yellowbird.png', img: '/images/yellowbird.png' },
+      { name: 'bird', value: './images/bird.png', img: './images/bird.png' },
+      { name: 'boat', value: './images/boat.png', img: './images/boat.png' },
+      { name: 'cicada', value: './images/cicada.svg', img: './images/cicada.svg' },
+      { name: 'crab', value: './images/crab.png', img: './images/crab.png' },
+      { name: 'frog', value: './images/frog.png', img: './images/frog.png' },
+      { name: 'love', value: './images/love.png', img: './images/love.png' },
+      { name: 'pink rabbit', value: './images/pinkrabbit.png', img: './images/pinkrabbit.png' },
+      { name: 'plane', value: './images/plane.png', img: './images/plane.png' },
+      { name: 'rabbit', value: './images/rabbit.png', img: './images/rabbit.png' },
+      { name: 'yellow bird', value: './images/yellowbird.png', img: './images/yellowbird.png' },
     ];
 
     return (
@@ -108,15 +108,15 @@ class NoteInput extends React.Component {
         />
 
         <div className="dropdown">
-        <button
-  type="button"
-  onClick={this.toggleDropdown}
-  className="dropdown-toggle"
->
-  {this.state.imageUrl
-    ? `Selected shape: ${shapes.find(shape => shape.value === this.state.imageUrl)?.name || 'Choose shape'}`
-    : "Select an origami shape"}
-</button>
+          <button
+            type="button"
+            onClick={this.toggleDropdown}
+            className="dropdown-toggle"
+          >
+            {this.state.imageUrl
+              ? `Selected shape: ${shapes.find(shape => shape.value === this.state.imageUrl)?.name || 'Choose shape'}`
+              : "Select an origami shape"}
+          </button>
 
           {this.state.dropdownVisible && (
             <div className="dropdown-menu">

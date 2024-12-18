@@ -4,7 +4,7 @@ function NoteItemImage({ imageUrl, title }) {
   return (
     <div className="note-item__image">
       <div className="note-item__overlay-text">To: {title}</div>
-      <img src={imageUrl || '/images/default.png'} alt="note avatar" />
+      <img src={imageUrl || './images/default.png'} alt="note avatar" />
       <style>
         {`
           .note-item__image:hover::after {
