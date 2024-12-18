@@ -8,7 +8,7 @@ function NoteItemImage({ imageUrl, title }) {
       <style>
         {`
           .note-item__image:hover::after {
-            content: 'Click to Unfold';
+            content: 'Click to unfold';
             position: absolute;
             background-color: rgba(0, 0, 0, 0.75);
             color: white;
