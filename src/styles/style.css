@@ -330,7 +330,7 @@ textarea {
   left: 0;
   background: white;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   z-index: 100;
   max-width: 420px;
   /* Maksimum lebar dropdown */
@@ -356,7 +356,7 @@ textarea {
   cursor: pointer;
   /* border: 1px solid #ccc;  */
   background-color: #fff;
-  border: 1px solid;
+  /* border: 1px solid; */
   border-radius: 4px;
   display: inline-block;
 }
