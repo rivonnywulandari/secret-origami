@@ -49,7 +49,7 @@ const getData = () => {
     {
       id: 6,
       title: "Aldi 🌟",
-      body: "Keberadaan kamu tuh kaya hari Sabtu. Semua orang nungguin, dan pas datang, bawa kebahagiaan yg susah dijelasin.",
+      body: "Kamu tuh kaya hari Sabtu. Semua orang nungguin, dan pas datang, bawa kebahagiaan yg susah dijelasin.",
       createdAt: "2024-12-17T10:27:34.572Z",
       archived: false,
       flip: true,
