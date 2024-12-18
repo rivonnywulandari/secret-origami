@@ -6,9 +6,9 @@
   "homepage": "https://rivonnywulandari/github.io/origami-letters",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "lint": "eslint .",
     "preview": "vite preview"
   },
