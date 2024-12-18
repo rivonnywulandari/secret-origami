@@ -333,6 +333,7 @@ textarea {
   /* border: 1px solid #ddd; */
   z-index: 100;
   max-width: 420px;
+  color: black;
   /* Maksimum lebar dropdown */
   overflow-y: auto;
 }
@@ -493,10 +494,6 @@ input[type='radio']:checked+.shape-img {
   width: 100%;
   padding: 8px;
   font-family: 'Inter', sans-serif;
-  color: black;
-  background-color: whitesmoke;
-  border: 1px solid black;
-  border-radius: 4px;
 }
 
 @media only screen and (min-width: 500px) {
