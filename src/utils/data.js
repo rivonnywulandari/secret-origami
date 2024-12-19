@@ -2,7 +2,7 @@ const getData = () => {
   return [
     {
       id: 1,
-      title: "Risa ✨",
+      title: "Risa",
       body: "Semangat terus, Risa! Aku tau kamu bisa lewatin ini. Jangan khawatir, hari-hari yang membahagiakan pasti datang!",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
@@ -12,7 +12,7 @@ const getData = () => {
     },
     {
       id: 2,
-      title: "Fardio 🌿",
+      title: "Fardio",
       body: "Makasih ya udah hadir di hidupku. Kamu itu kayak puzzle yang nemuin tempatnya. Pas dan bikin aku ngerasa utuh.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
@@ -21,7 +21,7 @@ const getData = () => {
     },
     {
       id: 3,
-      title: "Dita ☘️",
+      title: "Dita",
       body: "Dit, kamu itu kayak senja di akhir hari. Nggak cuma indah, tapi bikin semua hal yang rumit jadi terasa worth it.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
@@ -30,7 +30,7 @@ const getData = () => {
     },
     {
       id: 4,
-      title: "Aldi 💫",
+      title: "Aldi",
       body: "Vibe kamu itu beda. Kayak lo-fi playlist jam 2 pagi—tenang, bikin nyaman, dan nggak pernah gagal bikin hati adem.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
@@ -39,7 +39,7 @@ const getData = () => {
     },
     {
       id: 5,
-      title: "Naya 🌷",
+      title: "Naya",
       body: "Naya, obrolan absurd kita soal masa depan itu sekarang jadi kenyataan. Ternyata ga semua mimpi cuma jadi wacana.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
@@ -48,7 +48,7 @@ const getData = () => {
     },
     {
       id: 6,
-      title: "Reza 🌟",
+      title: "Reza",
       body: "Kamu tuh kaya hari Sabtu. Semua orang nungguin, dan pas datang, bawa kebahagiaan yg susah dijelasin.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
@@ -57,7 +57,7 @@ const getData = () => {
     },
     {
       id: 7,
-      title: "Maura 🌻",
+      title: "Maura",
       body: "Kamu masih inget buku diary kita pas SMP? Sampai sekarang tiap baca, aku selalu ketawa sama curhatan ga penting kita.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
@@ -66,7 +66,7 @@ const getData = () => {
     },
     {
       id: 8,
-      title: "Bayu ⛵",
+      title: "Bayu",
       body: "Bay, momen kita duduk di taman sambil ngobrolin masa kecil itu bikin aku sadar, hidup ini bisa sederhana tapi bahagia.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
@@ -75,7 +75,7 @@ const getData = () => {
     },
     {
       id: 9,
-      title: "Ara☔️",
+      title: "Ara",
       body: "Di sini lagi sering-seringnya hujan. Aku cuma berharap, pas Ara lihat langit cerah, dia ga lupa gimana aku pernah ada di hari-hari kelabunya.",
       createdAt: "2024-12-15T10:24:34.572Z",
       archived: true,
@@ -84,7 +84,7 @@ const getData = () => {
     },
     {
       id: 10,
-      title: "Fardian🏀",
+      title: "Fardian",
       body: "Tokyo pasti seru banget, ya? Sejak pergi tiga tahun lalu, kamu ga pernah lagi berkabar. Aku sama Fardio masih di sini, nungguin kamu balik.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: true,

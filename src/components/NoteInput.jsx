@@ -129,6 +129,7 @@ class NoteInput extends React.Component {
                       value={shape.value}
                       checked={this.state.imageUrl === shape.value}
                       onChange={this.onShapeChangeHandler}
+                      required
                     />
                     <img src={shape.img} alt={shape.value} className="shape-img" />
                   </label>
