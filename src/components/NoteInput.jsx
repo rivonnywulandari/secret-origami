@@ -145,7 +145,7 @@ class NoteInput extends React.Component {
             </div>
           )}
         </div>
-        <button type="submit">Submit</button>
+        <button className="buttonsubmit" type="submit">Submit</button>
       </form>
     );
   }
