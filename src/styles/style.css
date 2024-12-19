@@ -46,6 +46,7 @@ img {
   color: black;
   font-family: "Sour Gummy", sans-serif;
   font-weight: normal;
+  font-family: 29px;
 
 }
 
@@ -570,7 +571,7 @@ input[type='radio']:checked+.shape-img {
 
   .note-app__header h1 {
     margin: 8px 0;
-    font-size: 22px;
+    font-size: 23px;
     flex: 1;
     color: black;
     font-family: "Sour Gummy", sans-serif;
