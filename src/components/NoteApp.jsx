@@ -97,7 +97,7 @@ class NoteApp extends React.Component {
         </div>
         <div className="note-app__body">
           <div className="note-input">
-            <h2 className='sour-gummy'>Write an origami letter</h2>
+            <h2 className='sour-gummy'>Write a secret letter</h2>
             <NoteInput addNote={this.onAddNoteHandler} />
           </div>
           <div>
