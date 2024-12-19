@@ -381,7 +381,9 @@ textarea {
   /* Menambah ruang untuk panah */
   cursor: pointer;
   /* border: 1px solid #ccc;  */
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #fff !important;
+  color: #171717 !important;
   /* border: 1px solid; */
   border-radius: 4px;
   display: inline-block;
@@ -528,10 +530,13 @@ input[type='radio']:checked+.shape-img {
   width: 100%;
   padding: 8px;
   font-family: 'Inter', sans-serif;
-  color: black;
-  background-color: whitesmoke;
+  /* color: black; */
+  color: #171717;
+  /* background-color: whitesmoke; */
+  background-color: #171717;
   height: 35px;
-  border-color: black;
+  /* border-color: black; */
+  border-color: #171717;
   border-radius: 4px;
   font-size: 14px;
 
