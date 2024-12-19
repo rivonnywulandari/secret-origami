@@ -30,7 +30,7 @@ const getData = () => {
     },
     {
       id: 4,
-      title: "Aldi",
+      title: "Hazil",
       body: "Vibe kamu itu beda. Kayak lo-fi playlist jam 2 pagi—tenang, bikin nyaman, dan nggak pernah gagal bikin hati adem.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
