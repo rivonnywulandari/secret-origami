@@ -77,27 +77,31 @@ class NoteApp extends React.Component {
 
   render() {
     const { notes, searchQuery } = this.state;
-
-    const filteredNotes = notes.filter((note) =>
+  
+    // Urutkan notes berdasarkan id secara descending
+    const sortedNotes = [...notes].sort((a, b) => b.id - a.id);
+  
+    // Filter berdasarkan search query
+    const filteredNotes = sortedNotes.filter((note) =>
       note.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
-
-
+  
+    // Pisahkan menjadi active dan archived notes
     const activeNotes = filteredNotes.filter(note => !note.archived);
     const archivedNotes = filteredNotes.filter(note => note.archived);
     const year = new Date().getFullYear();
-
+  
     return (
       <div id="root">
         <div className="note-app__header">
-          <h1>Secret Origami</h1>
+          <h1>Origami Letters</h1>
           <div className="note-search">
             <input type="text" placeholder="Search letters..." value={this.state.searchQuery} onChange={this.onSearchHandler} />
           </div>
         </div>
         <div className="note-app__body">
           <div className="note-input">
-            <h2 className='sour-gummy'>Write a secret letter</h2>
+            <h2 className='sour-gummy'>Write a letter</h2>
             <NoteInput addNote={this.onAddNoteHandler} />
           </div>
           <div>
@@ -115,6 +119,7 @@ class NoteApp extends React.Component {
       </div>
     );
   }
+  
 }
 
 export default NoteApp;
