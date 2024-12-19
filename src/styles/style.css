@@ -90,8 +90,9 @@ img {
   /* border-radius: 4px; */
   overflow: hidden;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   height: 100%;
+  place-content: center;
   /* Parent harus memiliki tinggi penuh */
 
 }
@@ -616,7 +617,7 @@ input[type='radio']:checked+.shape-img {
     line-height: 1.5;
     min-height: 244.5px;
     width: 244.5px;
-    margin-left: 19%;
+    /* margin-left: 19%; */
     box-sizing: border-box;
   }
 
