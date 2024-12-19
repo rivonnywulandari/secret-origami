@@ -94,7 +94,7 @@ class NoteApp extends React.Component {
     return (
       <div id="root">
         <div className="note-app__header">
-          <h1>Origami Letters</h1>
+          <h1>Secret Origami</h1>
           <div className="note-search">
             <input type="text" placeholder="Search letters..." value={this.state.searchQuery} onChange={this.onSearchHandler} />
           </div>
