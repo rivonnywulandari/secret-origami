@@ -73,16 +73,23 @@ class NoteInput extends React.Component {
 
   render() {
     const shapes = [
-      { name: 'bird', value: './images/bird.png', img: './images/bird.png' },
+      { name: 'bird', value: './images/bird.png', img: './images/bird.png' },      
       { name: 'boat', value: './images/boat.png', img: './images/boat.png' },
-      { name: 'cicada', value: './images/cicada.svg', img: './images/cicada.svg' },
+      { name: 'butterfly', value: './images/butterfly.png', img: './images/butterfly.png' },
+      { name: 'cicada', value: './images/cicada.png', img: './images/cicada.png' },
       { name: 'crab', value: './images/crab.png', img: './images/crab.png' },
+      { name: 'envelope', value: './images/envelope.png', img: './images/envelope.png' },
       { name: 'frog', value: './images/frog.png', img: './images/frog.png' },
       { name: 'heart', value: './images/heart.png', img: './images/heart.png' },
+      { name: 'penguin', value: './images/penguin.png', img: './images/penguin.png' },
       { name: 'pink rabbit', value: './images/pinkrabbit.png', img: './images/pinkrabbit.png' },
       { name: 'plane', value: './images/plane.png', img: './images/plane.png' },
+      { name: 'star', value: './images/star.png', img: './images/star.png' },
+      { name: 'swan', value: './images/swan.png', img: './images/swan.png' },
       { name: 'rabbit', value: './images/rabbit.png', img: './images/rabbit.png' },
       { name: 'yellow bird', value: './images/yellowbird.png', img: './images/yellowbird.png' },
+
+
     ];
 
     return (
@@ -125,11 +132,11 @@ class NoteInput extends React.Component {
                   <label key={shape.value}>
                     <input
                       type="radio"
-                      name="shape" // Semua input radio memiliki nama yang sama
+                      name="shape"
                       value={shape.value}
                       checked={this.state.imageUrl === shape.value}
                       onChange={this.onShapeChangeHandler}
-                      required
+                      
                     />
                     <img src={shape.img} alt={shape.value} className="shape-img" />
                   </label>
