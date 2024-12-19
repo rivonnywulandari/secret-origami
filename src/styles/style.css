@@ -309,13 +309,15 @@ img {
 
 input,
 textarea {
-  padding: 12px;
+  padding: 8px;
   margin: 12px 0;
   font-family: 'Inter', sans-serif;
   background-color: transparent;
   color: black;
   border: 1px solid black;
   border-radius: 4px;
+    font-size: 14px;
+
 }
 
 .note-input {
@@ -376,6 +378,8 @@ textarea {
   /* border: 1px solid; */
   border-radius: 4px;
   display: inline-block;
+  font-size: 14px;
+
 }
 
 .dropdown-toggle::after {
@@ -450,6 +454,8 @@ textarea {
   padding: 8px;
   margin: 8px 0;
   font-family: 'Inter', sans-serif;
+  font-size: 14px;
+
 }
 
 textarea {
@@ -462,6 +468,8 @@ textarea {
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 4px;
+  font-size: 14px;
+
 }
 
 .shape-options {
@@ -515,6 +523,8 @@ input[type='radio']:checked+.shape-img {
   height: 35px;
   border-color: black;
   border-radius: 4px;
+  font-size: 14px;
+
 }
 
 @media only screen and (min-width: 500px) {
