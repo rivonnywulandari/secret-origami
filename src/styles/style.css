@@ -437,15 +437,15 @@ input, textarea {
   /* Sembunyikan radio button */
 }
 
-.shape-options input[type="radio"]:checked+.shape-img {
+/* .shape-options input[type="radio"]:checked+.shape-img {
   border: 1px #d9d9d9;
   transform: scale(1.1);
-}
+} */
 
 .shape-img {
   width: 60px;
   height: 60px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   transition: border-color 0.3s, transform 0.2s;
 }
 
@@ -506,7 +506,7 @@ textarea {
 .shape-img {
   width: 60px;
   height: 60px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   transition: transform 0.2s, border-color 0.3s;
 }
 
