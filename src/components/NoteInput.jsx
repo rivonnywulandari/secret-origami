@@ -54,7 +54,7 @@ class NoteInput extends React.Component {
     event.preventDefault();
     this.props.addNote(this.state);
 
-    alert('Letter submitted successfully!');
+    // alert('Letter submitted successfully!');
 
     // console.log('Title:', this.state.title);
     // console.log('Body:', this.state.body);
