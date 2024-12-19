@@ -242,7 +242,7 @@ img {
 .note-item__title {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   margin-bottom: 4px;
 }
 
@@ -317,7 +317,8 @@ textarea {
   color: black;
   border: 1px solid black;
   border-radius: 4px;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 14px;
 
 }
 
@@ -455,7 +456,8 @@ textarea {
   padding: 8px;
   margin: 8px 0;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 14px;
 
 }
 
@@ -469,7 +471,8 @@ textarea {
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 4px;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 14px;
 
 }
 
@@ -629,6 +632,43 @@ input[type='radio']:checked+.shape-img {
     overflow-y: auto;
   }
 
+  .note-input input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    /* font-size: 14px; */
   
+  }
+  
+  textarea {
+    display: block;
+    min-height: 120px;
+    width: 100%;
+    padding: 8px;
+    margin: 12px 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 16px;
+    /* font-size: 14px; */
+  
+  }
+
+  input, textarea {
+  padding: 8px;
+  margin: 12px 0;
+  font-family: 'Inter', sans-serif;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  /* font-size: 14px; */
+
+}
 
 }
