@@ -16,7 +16,7 @@ const getData = () => {
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: './images/cicada.svg',
+      imageUrl: './images/envelope.svg',
     },
     {
       id: 3,
@@ -79,7 +79,7 @@ const getData = () => {
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: true,
       flip: true,
-      imageUrl: './images/pinkrabbit.png',
+      imageUrl: './images/swan.png',
     },
     {
       id: 10,
