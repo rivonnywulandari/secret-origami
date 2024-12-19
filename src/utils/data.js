@@ -13,7 +13,7 @@ const getData = () => {
     {
       id: 2,
       title: "Fardio",
-      body: "Makasih ya udah hadir di hidupku. Kamu itu kayak puzzle yang nemuin tempatnya. Pas dan bikin aku ngerasa utuh.",
+      body: "Makasih ya udah hadir di hidup aku. Kamu itu kayak puzzle yang nemuin tempatnya. Pas dan bikin aku ngerasa utuh.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
       flip: true,
@@ -67,7 +67,7 @@ const getData = () => {
     {
       id: 8,
       title: "Bayu",
-      body: "Bay, momen kita duduk di taman sambil ngobrolin masa kecil itu bikin aku sadar, hidup ini bisa sederhana tapi bahagia.",
+      body: "Momen kita duduk di taman sambil ngobrolin masa kecil itu bikin aku sadar, hidup ini bisa sederhana tapi bahagia.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
       flip: true,

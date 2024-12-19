@@ -198,6 +198,21 @@ img {
   /* Membiarkan item mengisi ruang yang tersedia secara responsif */
 }
 
+.note-item__image:hover::after {
+  content: 'Click to unfold';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  /* bottom: 0; */
+  top: 60%;
+  /* bottom: 27%; */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
 .note-item__overlay-text {
   position: absolute;
   top: 40%;
@@ -602,5 +617,6 @@ input[type='radio']:checked+.shape-img {
     overflow-y: auto;
   }
 
+  
 
 }
