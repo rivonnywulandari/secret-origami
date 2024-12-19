@@ -161,9 +161,10 @@ img {
 .note-item__content::before {
   background-image:
     /* linear-gradient(to bottom right, transparent 48%, rgba(150, 150, 150, 0.1) 50%, transparent 52%), */
-    linear-gradient(to bottom right, transparent 48%, rgba(125, 125, 125, 0.1) 50%, transparent 52%),
-    /* Garis X bawah kanan */
-    linear-gradient(to top right, transparent 48%, rgba(125, 125, 125, 0.1) 50%, transparent 52%);
+    /* linear-gradient(to bottom right, transparent 48%, rgba(125, 125, 125, 0.1) 50%, transparent 52%),
+    linear-gradient(to top right, transparent 48%, rgba(125, 125, 125, 0.1) 50%, transparent 52%); */
+    linear-gradient(to bottom right, transparent 35%, rgba(125, 125, 125, 0.1) 50%, transparent 52%),
+    linear-gradient(to top right, transparent 35%, rgba(125, 125, 125, 0.1) 50%, transparent 52%);
   /* Garis X atas kanan */
   background-size: 100px 100px;
   /* Ukuran pola */
