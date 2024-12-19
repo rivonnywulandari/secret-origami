@@ -402,7 +402,8 @@ textarea {
   transform: translateY(-50%);
   font-size: 12px;
   /* Ukuran panah */
-  color: #888;
+  /* color: #888; */
+  color: #171717;
   /* Warna panah */
 }
 
