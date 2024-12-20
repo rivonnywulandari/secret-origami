@@ -696,4 +696,17 @@ input[type='radio']:checked+.shape-img {
 
 }
 
+.note-input button {
+  width: 100%;
+  padding: 8px;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  background-color: #171717;
+  height: 35px;
+  border-color: #d9d9d9;
+  border-radius: 4px;
+  font-size: 15px;
+
+}
+
 }

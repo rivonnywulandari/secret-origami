@@ -16,7 +16,7 @@ const getData = () => {
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
       flip: true,
-      imageUrl: './images/envelope.png',
+      imageUrl: './images/tulip.png',
     },
     {
       id: 3,
