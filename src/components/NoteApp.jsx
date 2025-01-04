@@ -114,7 +114,7 @@ class NoteApp extends React.Component {
           </div>
         </div>
         <footer>
-          <p className='footer'> {year} &copy; Rivonny</p>
+          <p className='footer'>&copy; {year} Rivonny</p>
         </footer>
       </div>
     );

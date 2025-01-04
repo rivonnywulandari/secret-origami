@@ -21,7 +21,8 @@ const getData = () => {
     {
       id: 3,
       title: "Rafael",
-      body: "Kamu tuh kaya hari Sabtu. Semua orang nungguin, dan pas datang, bawa kebahagiaan yg susah dijelasin.",
+      body: "Nanti ajarin aku main rubik lagi, ya. Mungkin besok-besok aku bakal jarang ketemu kamu, tapi, 4R bakal aku inget terus!",
+      // body: "Kamu tuh kaya hari Sabtu. Semua orang nungguin, dan pas datang, bawa kebahagiaan yg susah dijelasin.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
       flip: true,
@@ -30,7 +31,7 @@ const getData = () => {
     {
       id: 4,
       title: "Naya",
-      body: "Naya, obrolan absurd kita soal masa depan itu sekarang jadi kenyataan. Ternyata ga semua mimpi cuma jadi wacana.",
+      body: "Obrolan absurd kita soal masa depan itu sekarang jadi kenyataan. Ternyata ga semua mimpi cuma jadi wacana.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
       flip: true,
@@ -39,7 +40,8 @@ const getData = () => {
     {
       id: 5,
       title: "Hazil",
-      body: "Vibe kamu itu beda. Kayak lo-fi playlist jam 2 pagi—tenang, bikin nyaman, dan nggak pernah gagal bikin hati adem.",
+      body: "Ga ada yang ga mungkin, Zil. Jangan bosen-bosen kerjain laporannya. Skripsi yang baik adalah skripsi yang selesai!",
+      // body: "Vibe kamu itu beda. Kayak lo-fi playlist jam 2 pagi—tenang, bikin nyaman, dan nggak pernah gagal bikin hati adem.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: false,
       flip: true,
@@ -75,7 +77,7 @@ const getData = () => {
     {
       id: 9,
       title: "Fardian",
-      body: "Tokyo pasti seru banget, ya? Sejak pergi tiga tahun lalu, kamu ga pernah lagi berkabar. Aku sama Fardio masih di sini, nungguin kamu balik.",
+      body: "Tokyo pasti seru banget, ya? Sejak pergi tiga tahun lalu, kamu ga pernah lagi ngasih kabar. Aku sama Fardio masih di sini, nungguin kamu balik.",
       createdAt: "2024-12-15T10:27:34.572Z",
       archived: true,
       flip: true,
